@@ -7,7 +7,6 @@ import MovieDetailView from '@/views/MovieDetailView.vue'
 import ArticleView from '@/views/ArticleView.vue'
 import ArticleDetailView from '@/views/ArticleDetailView.vue'
 
-import NotFound from '@/views/NotFound.vue';
 import SignUpView from '@/views/SignUpView'
 import LogInView from '@/views/LogInView'
 
@@ -58,17 +57,6 @@ const routes = [
     component: LogInView
   },
 
-
-  // 404 페이지
-  {
-    path: '/404',
-    name: 'NotFound',
-    component: NotFound,
-  },
-  {
-    path: '*',
-    redirect: '/404'
-  },
 
 ]
 
